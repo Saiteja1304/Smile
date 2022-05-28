@@ -25,8 +25,8 @@ public:
   void WExitGLFW();
 
 private:
-  Window();
-  ~Window();
+  Window(){}
+  ~Window(){}
 };
 
 #endif
