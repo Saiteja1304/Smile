@@ -10,7 +10,7 @@ public:
     return GInstance;
   }
   int GInit();
-  void GSetViewPort(int& xPos, int& yPos, int &width, int& height);
+  void GSetViewPort(int xPos, int yPos, int width, int height);
   void GBackGroundColor(float red, float green, float blue, float alpha);
 
 private:
