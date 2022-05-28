@@ -205,12 +205,12 @@ glfw/tests/clean: glfw/tests/CMakeFiles/windows.dir/clean
 CMakeFiles/Smile.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Smile.dir/build.make CMakeFiles/Smile.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Smile.dir/build.make CMakeFiles/Smile.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=1,2,3 "Built target Smile"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=1,2,3,4 "Built target Smile"
 .PHONY : CMakeFiles/Smile.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Smile.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Smile.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
 .PHONY : CMakeFiles/Smile.dir/rule
@@ -283,7 +283,7 @@ glfw/src/CMakeFiles/update_mappings.dir/clean:
 glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f glfw/src/CMakeFiles/glfw.dir/build.make glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/src/CMakeFiles/glfw.dir/build.make glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32,33,34,35,36 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34,35,36,37 "Built target glfw"
 .PHONY : glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -309,7 +309,7 @@ glfw/src/CMakeFiles/glfw.dir/clean:
 glfw/examples/CMakeFiles/boing.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/boing.dir/build.make glfw/examples/CMakeFiles/boing.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/boing.dir/build.make glfw/examples/CMakeFiles/boing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=4,5 "Built target boing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=5,6 "Built target boing"
 .PHONY : glfw/examples/CMakeFiles/boing.dir/all
 
 # Build rule for subdir invocation for target.
@@ -335,7 +335,7 @@ glfw/examples/CMakeFiles/boing.dir/clean:
 glfw/examples/CMakeFiles/gears.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/gears.dir/build.make glfw/examples/CMakeFiles/gears.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/gears.dir/build.make glfw/examples/CMakeFiles/gears.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=21,22 "Built target gears"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=22,23 "Built target gears"
 .PHONY : glfw/examples/CMakeFiles/gears.dir/all
 
 # Build rule for subdir invocation for target.
@@ -361,12 +361,12 @@ glfw/examples/CMakeFiles/gears.dir/clean:
 glfw/examples/CMakeFiles/heightmap.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/heightmap.dir/build.make glfw/examples/CMakeFiles/heightmap.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/heightmap.dir/build.make glfw/examples/CMakeFiles/heightmap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=41,42,43 "Built target heightmap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=42,43 "Built target heightmap"
 .PHONY : glfw/examples/CMakeFiles/heightmap.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/examples/CMakeFiles/heightmap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw/examples/CMakeFiles/heightmap.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
 .PHONY : glfw/examples/CMakeFiles/heightmap.dir/rule
@@ -387,12 +387,12 @@ glfw/examples/CMakeFiles/heightmap.dir/clean:
 glfw/examples/CMakeFiles/offscreen.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/offscreen.dir/build.make glfw/examples/CMakeFiles/offscreen.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/offscreen.dir/build.make glfw/examples/CMakeFiles/offscreen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=62,63 "Built target offscreen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=62,63,64 "Built target offscreen"
 .PHONY : glfw/examples/CMakeFiles/offscreen.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/examples/CMakeFiles/offscreen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw/examples/CMakeFiles/offscreen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
 .PHONY : glfw/examples/CMakeFiles/offscreen.dir/rule
@@ -439,12 +439,12 @@ glfw/examples/CMakeFiles/particles.dir/clean:
 glfw/examples/CMakeFiles/sharing.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/sharing.dir/build.make glfw/examples/CMakeFiles/sharing.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/sharing.dir/build.make glfw/examples/CMakeFiles/sharing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=73,74,75 "Built target sharing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=74,75 "Built target sharing"
 .PHONY : glfw/examples/CMakeFiles/sharing.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/examples/CMakeFiles/sharing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw/examples/CMakeFiles/sharing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
 .PHONY : glfw/examples/CMakeFiles/sharing.dir/rule
@@ -465,12 +465,12 @@ glfw/examples/CMakeFiles/sharing.dir/clean:
 glfw/examples/CMakeFiles/simple.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/simple.dir/build.make glfw/examples/CMakeFiles/simple.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/simple.dir/build.make glfw/examples/CMakeFiles/simple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=76,77 "Built target simple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=76,77,78 "Built target simple"
 .PHONY : glfw/examples/CMakeFiles/simple.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/examples/CMakeFiles/simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw/examples/CMakeFiles/simple.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
 .PHONY : glfw/examples/CMakeFiles/simple.dir/rule
@@ -491,12 +491,12 @@ glfw/examples/CMakeFiles/simple.dir/clean:
 glfw/examples/CMakeFiles/splitview.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/splitview.dir/build.make glfw/examples/CMakeFiles/splitview.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/splitview.dir/build.make glfw/examples/CMakeFiles/splitview.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=78,79,80 "Built target splitview"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=79,80 "Built target splitview"
 .PHONY : glfw/examples/CMakeFiles/splitview.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/examples/CMakeFiles/splitview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw/examples/CMakeFiles/splitview.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
 .PHONY : glfw/examples/CMakeFiles/splitview.dir/rule
@@ -543,12 +543,12 @@ glfw/examples/CMakeFiles/wave.dir/clean:
 glfw/tests/CMakeFiles/clipboard.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/clipboard.dir/build.make glfw/tests/CMakeFiles/clipboard.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/clipboard.dir/build.make glfw/tests/CMakeFiles/clipboard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=6,7,8,9 "Built target clipboard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=7,8,9 "Built target clipboard"
 .PHONY : glfw/tests/CMakeFiles/clipboard.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/clipboard.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw/tests/CMakeFiles/clipboard.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/clipboard.dir/rule
@@ -569,12 +569,12 @@ glfw/tests/CMakeFiles/clipboard.dir/clean:
 glfw/tests/CMakeFiles/events.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/events.dir/build.make glfw/tests/CMakeFiles/events.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/events.dir/build.make glfw/tests/CMakeFiles/events.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=15,16,17,18 "Built target events"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=16,17,18 "Built target events"
 .PHONY : glfw/tests/CMakeFiles/events.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/events.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw/tests/CMakeFiles/events.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/events.dir/rule
@@ -621,7 +621,7 @@ glfw/tests/CMakeFiles/msaa.dir/clean:
 glfw/tests/CMakeFiles/glfwinfo.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/glfwinfo.dir/build.make glfw/tests/CMakeFiles/glfwinfo.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/glfwinfo.dir/build.make glfw/tests/CMakeFiles/glfwinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=37,38,39,40 "Built target glfwinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=38,39,40,41 "Built target glfwinfo"
 .PHONY : glfw/tests/CMakeFiles/glfwinfo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -647,12 +647,12 @@ glfw/tests/CMakeFiles/glfwinfo.dir/clean:
 glfw/tests/CMakeFiles/iconify.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/iconify.dir/build.make glfw/tests/CMakeFiles/iconify.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/iconify.dir/build.make glfw/tests/CMakeFiles/iconify.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=46,47,48,49 "Built target iconify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=47,48,49 "Built target iconify"
 .PHONY : glfw/tests/CMakeFiles/iconify.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/iconify.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw/tests/CMakeFiles/iconify.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/iconify.dir/rule
@@ -673,12 +673,12 @@ glfw/tests/CMakeFiles/iconify.dir/clean:
 glfw/tests/CMakeFiles/monitors.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/monitors.dir/build.make glfw/tests/CMakeFiles/monitors.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/monitors.dir/build.make glfw/tests/CMakeFiles/monitors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=55,56,57,58 "Built target monitors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=56,57,58 "Built target monitors"
 .PHONY : glfw/tests/CMakeFiles/monitors.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/monitors.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw/tests/CMakeFiles/monitors.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/monitors.dir/rule
@@ -699,12 +699,12 @@ glfw/tests/CMakeFiles/monitors.dir/clean:
 glfw/tests/CMakeFiles/reopen.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/reopen.dir/build.make glfw/tests/CMakeFiles/reopen.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/reopen.dir/build.make glfw/tests/CMakeFiles/reopen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=71,72 "Built target reopen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=71,72,73 "Built target reopen"
 .PHONY : glfw/tests/CMakeFiles/reopen.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/reopen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw/tests/CMakeFiles/reopen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/reopen.dir/rule
@@ -725,12 +725,12 @@ glfw/tests/CMakeFiles/reopen.dir/clean:
 glfw/tests/CMakeFiles/cursor.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/cursor.dir/build.make glfw/tests/CMakeFiles/cursor.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/cursor.dir/build.make glfw/tests/CMakeFiles/cursor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=10,11 "Built target cursor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=10,11,12 "Built target cursor"
 .PHONY : glfw/tests/CMakeFiles/cursor.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/cursor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw/tests/CMakeFiles/cursor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/cursor.dir/rule
@@ -751,7 +751,7 @@ glfw/tests/CMakeFiles/cursor.dir/clean:
 glfw/tests/CMakeFiles/empty.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/empty.dir/build.make glfw/tests/CMakeFiles/empty.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/empty.dir/build.make glfw/tests/CMakeFiles/empty.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=12,13,14 "Built target empty"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=13,14,15 "Built target empty"
 .PHONY : glfw/tests/CMakeFiles/empty.dir/all
 
 # Build rule for subdir invocation for target.
@@ -777,12 +777,12 @@ glfw/tests/CMakeFiles/empty.dir/clean:
 glfw/tests/CMakeFiles/gamma.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/gamma.dir/build.make glfw/tests/CMakeFiles/gamma.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/gamma.dir/build.make glfw/tests/CMakeFiles/gamma.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=19,20 "Built target gamma"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=19,20,21 "Built target gamma"
 .PHONY : glfw/tests/CMakeFiles/gamma.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/gamma.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw/tests/CMakeFiles/gamma.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/gamma.dir/rule
@@ -803,12 +803,12 @@ glfw/tests/CMakeFiles/gamma.dir/clean:
 glfw/tests/CMakeFiles/icon.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/icon.dir/build.make glfw/tests/CMakeFiles/icon.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/icon.dir/build.make glfw/tests/CMakeFiles/icon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=44,45 "Built target icon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=44,45,46 "Built target icon"
 .PHONY : glfw/tests/CMakeFiles/icon.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/icon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw/tests/CMakeFiles/icon.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/icon.dir/rule
@@ -855,12 +855,12 @@ glfw/tests/CMakeFiles/inputlag.dir/clean:
 glfw/tests/CMakeFiles/joysticks.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/joysticks.dir/build.make glfw/tests/CMakeFiles/joysticks.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/joysticks.dir/build.make glfw/tests/CMakeFiles/joysticks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=53,54 "Built target joysticks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=53,54,55 "Built target joysticks"
 .PHONY : glfw/tests/CMakeFiles/joysticks.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/joysticks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw/tests/CMakeFiles/joysticks.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/joysticks.dir/rule
@@ -881,12 +881,12 @@ glfw/tests/CMakeFiles/joysticks.dir/clean:
 glfw/tests/CMakeFiles/opacity.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/opacity.dir/build.make glfw/tests/CMakeFiles/opacity.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/opacity.dir/build.make glfw/tests/CMakeFiles/opacity.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=64,65,66 "Built target opacity"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=65,66 "Built target opacity"
 .PHONY : glfw/tests/CMakeFiles/opacity.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/opacity.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw/tests/CMakeFiles/opacity.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/opacity.dir/rule
@@ -985,12 +985,12 @@ glfw/tests/CMakeFiles/timeout.dir/clean:
 glfw/tests/CMakeFiles/title.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/title.dir/build.make glfw/tests/CMakeFiles/title.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/title.dir/build.make glfw/tests/CMakeFiles/title.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=89,90 "Built target title"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=89,90,91 "Built target title"
 .PHONY : glfw/tests/CMakeFiles/title.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/title.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw/tests/CMakeFiles/title.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/title.dir/rule
@@ -1011,12 +1011,12 @@ glfw/tests/CMakeFiles/title.dir/clean:
 glfw/tests/CMakeFiles/triangle-vulkan.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/triangle-vulkan.dir/build.make glfw/tests/CMakeFiles/triangle-vulkan.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/triangle-vulkan.dir/build.make glfw/tests/CMakeFiles/triangle-vulkan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=91,92,93 "Built target triangle-vulkan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=92,93 "Built target triangle-vulkan"
 .PHONY : glfw/tests/CMakeFiles/triangle-vulkan.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/triangle-vulkan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw/tests/CMakeFiles/triangle-vulkan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/triangle-vulkan.dir/rule

@@ -4,7 +4,28 @@
 CMakeFiles/Smile.dir/Smile.cpp.o: ../Smile.cpp \
   ../include/Debug/Debug.hpp
 
-CMakeFiles/Smile.dir/src/Graphics.cpp.o: ../src/Graphics.cpp
+CMakeFiles/Smile.dir/src/Graphics.cpp.o: ../src/Graphics.cpp \
+  ../include/glad/glad.h \
+  /usr/include/KHR/khrplatform.h \
+  /usr/lib/clang/13.0.1/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  ../include/Graphics/GL/Graphics.hpp
 
 CMakeFiles/Smile.dir/src/Window.cpp.o: ../src/Window.cpp \
   ../glfw/include/GLFW/glfw3.h \
@@ -194,6 +215,83 @@ CMakeFiles/Smile.dir/src/Window.cpp.o: ../src/Window.cpp \
   /usr/include/c++/12.1.0/istream \
   /usr/include/c++/12.1.0/bits/istream.tcc
 
+CMakeFiles/Smile.dir/src/glad.c.o: ../src/glad.c \
+  /usr/include/stdio.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/lib/clang/13.0.1/include/stddef.h \
+  /usr/lib/clang/13.0.1/include/stdarg.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/string.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/strings.h \
+  ../include/glad/glad.h \
+  /usr/include/KHR/khrplatform.h \
+  /usr/lib/clang/13.0.1/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/dlfcn.h \
+  /usr/include/bits/dlfcn.h
+
+
+/usr/include/bits/dlfcn.h:
+
+/usr/include/dlfcn.h:
+
+/usr/include/strings.h:
+
+/usr/include/string.h:
+
+../src/glad.c:
 
 /usr/include/c++/12.1.0/bits/istream.tcc:
 
@@ -271,9 +369,9 @@ CMakeFiles/Smile.dir/src/Window.cpp.o: ../src/Window.cpp \
 
 /usr/include/c++/12.1.0/debug/debug.h:
 
-/usr/include/c++/12.1.0/bits/alloc_traits.h:
+/usr/include/c++/12.1.0/bits/utility.h:
 
-/usr/include/c++/12.1.0/bits/hash_bytes.h:
+/usr/include/c++/12.1.0/bits/stl_pair.h:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 
@@ -329,15 +427,19 @@ CMakeFiles/Smile.dir/src/Window.cpp.o: ../src/Window.cpp \
 
 /usr/include/c++/12.1.0/bits/move.h:
 
-/usr/include/c++/12.1.0/bits/locale_classes.h:
+/usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/cpu_defines.h:
 
-/usr/include/asm/errno.h:
+../include/Window/Window.hpp:
 
-/usr/include/c++/12.1.0/bits/exception_ptr.h:
+../include/Graphics/GL/Graphics.hpp:
 
-/usr/include/stdint.h:
+/usr/include/GL/glext.h:
 
-/usr/include/c++/12.1.0/bits/stl_iterator_base_funcs.h:
+/usr/lib/clang/13.0.1/include/stdint.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/c++/12.1.0/bits/memoryfwd.h:
 
 /usr/include/features-time64.h:
 
@@ -347,21 +449,13 @@ CMakeFiles/Smile.dir/src/Window.cpp.o: ../src/Window.cpp \
 
 /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/gthr.h:
 
-/usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++locale.h:
+/usr/include/stdint.h:
 
-/usr/include/c++/12.1.0/exception:
+/usr/include/c++/12.1.0/bits/stl_iterator_base_funcs.h:
 
-/usr/include/c++/12.1.0/bits/new_allocator.h:
+/usr/include/asm/errno.h:
 
-/usr/include/c++/12.1.0/bits/memoryfwd.h:
-
-/usr/include/gnu/stubs-64.h:
-
-/usr/include/c++/12.1.0/ext/atomicity.h:
-
-/usr/include/bits/stdint-intn.h:
-
-/usr/include/c++/12.1.0/bits/cpp_type_traits.h:
+/usr/include/c++/12.1.0/bits/exception_ptr.h:
 
 /usr/include/c++/12.1.0/bits/streambuf.tcc:
 
@@ -399,15 +493,17 @@ CMakeFiles/Smile.dir/src/Window.cpp.o: ../src/Window.cpp \
 
 /usr/include/bits/libc-header-start.h:
 
-/usr/include/GL/glext.h:
+/usr/include/bits/types.h:
 
-/usr/lib/clang/13.0.1/include/stdint.h:
+/usr/include/c++/12.1.0/bits/locale_classes.h:
 
-/usr/include/c++/12.1.0/typeinfo:
+../include/glad/glad.h:
 
-/usr/include/bits/wchar.h:
+/usr/include/stdc-predef.h:
 
-/usr/lib/clang/13.0.1/include/stddef.h:
+/usr/include/gnu/stubs.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
 
 /usr/include/bits/waitstatus.h:
 
@@ -417,27 +513,37 @@ CMakeFiles/Smile.dir/src/Window.cpp.o: ../src/Window.cpp \
 
 /usr/include/bits/endian.h:
 
-/usr/include/stdc-predef.h:
-
-/usr/include/gnu/stubs.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
 /usr/include/sys/cdefs.h:
 
 /usr/include/bits/long-double.h:
 
 /usr/include/GL/gl.h:
 
-/usr/include/bits/types.h:
-
 /usr/include/bits/stdlib-float.h:
 
 /usr/include/bits/time64.h:
 
-/usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+/usr/include/bits/wchar.h:
 
-../include/Window/Window.hpp:
+/usr/include/c++/12.1.0/typeinfo:
+
+/usr/include/bits/stdint-intn.h:
+
+/usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++locale.h:
+
+/usr/include/c++/12.1.0/exception:
+
+/usr/include/c++/12.1.0/bits/new_allocator.h:
+
+/usr/include/c++/12.1.0/ext/atomicity.h:
+
+/usr/include/c++/12.1.0/bits/cpp_type_traits.h:
+
+/usr/lib/clang/13.0.1/include/stddef.h:
+
+/usr/include/c++/12.1.0/bits/alloc_traits.h:
+
+/usr/include/c++/12.1.0/bits/hash_bytes.h:
 
 /usr/include/c++/12.1.0/bits/nested_exception.h:
 
@@ -568,7 +674,3 @@ CMakeFiles/Smile.dir/src/Window.cpp.o: ../src/Window.cpp \
 /usr/include/bits/types/FILE.h:
 
 /usr/include/c++/12.1.0/bits/stl_algobase.h:
-
-/usr/include/c++/12.1.0/bits/stl_pair.h:
-
-/usr/include/c++/12.1.0/bits/utility.h:

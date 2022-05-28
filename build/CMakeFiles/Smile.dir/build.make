@@ -111,11 +111,26 @@ CMakeFiles/Smile.dir/src/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Smile.dir/src/Window.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tej/Smile/src/Window.cpp -o CMakeFiles/Smile.dir/src/Window.cpp.s
 
+CMakeFiles/Smile.dir/src/glad.c.o: CMakeFiles/Smile.dir/flags.make
+CMakeFiles/Smile.dir/src/glad.c.o: ../src/glad.c
+CMakeFiles/Smile.dir/src/glad.c.o: CMakeFiles/Smile.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Smile.dir/src/glad.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Smile.dir/src/glad.c.o -MF CMakeFiles/Smile.dir/src/glad.c.o.d -o CMakeFiles/Smile.dir/src/glad.c.o -c /home/tej/Smile/src/glad.c
+
+CMakeFiles/Smile.dir/src/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Smile.dir/src/glad.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tej/Smile/src/glad.c > CMakeFiles/Smile.dir/src/glad.c.i
+
+CMakeFiles/Smile.dir/src/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Smile.dir/src/glad.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tej/Smile/src/glad.c -o CMakeFiles/Smile.dir/src/glad.c.s
+
 # Object files for target Smile
 Smile_OBJECTS = \
 "CMakeFiles/Smile.dir/Smile.cpp.o" \
 "CMakeFiles/Smile.dir/src/Graphics.cpp.o" \
-"CMakeFiles/Smile.dir/src/Window.cpp.o"
+"CMakeFiles/Smile.dir/src/Window.cpp.o" \
+"CMakeFiles/Smile.dir/src/glad.c.o"
 
 # External object files for target Smile
 Smile_EXTERNAL_OBJECTS =
@@ -123,9 +138,10 @@ Smile_EXTERNAL_OBJECTS =
 libSmile.a: CMakeFiles/Smile.dir/Smile.cpp.o
 libSmile.a: CMakeFiles/Smile.dir/src/Graphics.cpp.o
 libSmile.a: CMakeFiles/Smile.dir/src/Window.cpp.o
+libSmile.a: CMakeFiles/Smile.dir/src/glad.c.o
 libSmile.a: CMakeFiles/Smile.dir/build.make
 libSmile.a: CMakeFiles/Smile.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libSmile.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libSmile.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Smile.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Smile.dir/link.txt --verbose=$(VERBOSE)
 

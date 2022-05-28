@@ -15,6 +15,11 @@
   "file": "/home/tej/Smile/src/Window.cpp"
 },
 {
+  "directory": "/home/tej/Smile/build",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/include -I/home/tej/Smile/glfw/include -g -o CMakeFiles/Smile.dir/src/glad.c.o -c /home/tej/Smile/src/glad.c",
+  "file": "/home/tej/Smile/src/glad.c"
+},
+{
   "directory": "/home/tej/Smile/build/glfw/src",
   "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tej/Smile/glfw/include -I/home/tej/Smile/glfw/src -I/home/tej/Smile/build/glfw/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/context.c.o -c /home/tej/Smile/glfw/src/context.c",
   "file": "/home/tej/Smile/glfw/src/context.c"

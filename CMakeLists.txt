@@ -3,7 +3,7 @@ project(Smile VERSION 0.0.1)
 
 add_subdirectory(glfw)
 
-file(GLOB SRC src/*.cpp)
+file(GLOB SRC src/*.cpp src/*.c)
 file(GLOB INCLUDE src/*.hpp)
 
 add_library(${PROJECT_NAME} Smile.cpp
