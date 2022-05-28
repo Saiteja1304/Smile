@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSmile.a CMakeFiles/Smile.dir/Smile.cpp.o CMakeFiles/Smile.dir/src/Graphics.cpp.o CMakeFiles/Smile.dir/src/Window.cpp.o
+/usr/bin/ranlib libSmile.a

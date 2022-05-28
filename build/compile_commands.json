@@ -1,0 +1,452 @@
+[
+{
+  "directory": "/home/tej/Smile/build",
+  "command": "/usr/bin/clang++  -I/home/tej/Smile/include -I/home/tej/Smile/glfw/include -g -o CMakeFiles/Smile.dir/Smile.cpp.o -c /home/tej/Smile/Smile.cpp",
+  "file": "/home/tej/Smile/Smile.cpp"
+},
+{
+  "directory": "/home/tej/Smile/build",
+  "command": "/usr/bin/clang++  -I/home/tej/Smile/include -I/home/tej/Smile/glfw/include -g -o CMakeFiles/Smile.dir/src/Graphics.cpp.o -c /home/tej/Smile/src/Graphics.cpp",
+  "file": "/home/tej/Smile/src/Graphics.cpp"
+},
+{
+  "directory": "/home/tej/Smile/build",
+  "command": "/usr/bin/clang++  -I/home/tej/Smile/include -I/home/tej/Smile/glfw/include -g -o CMakeFiles/Smile.dir/src/Window.cpp.o -c /home/tej/Smile/src/Window.cpp",
+  "file": "/home/tej/Smile/src/Window.cpp"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tej/Smile/glfw/include -I/home/tej/Smile/glfw/src -I/home/tej/Smile/build/glfw/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/context.c.o -c /home/tej/Smile/glfw/src/context.c",
+  "file": "/home/tej/Smile/glfw/src/context.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tej/Smile/glfw/include -I/home/tej/Smile/glfw/src -I/home/tej/Smile/build/glfw/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/init.c.o -c /home/tej/Smile/glfw/src/init.c",
+  "file": "/home/tej/Smile/glfw/src/init.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tej/Smile/glfw/include -I/home/tej/Smile/glfw/src -I/home/tej/Smile/build/glfw/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/input.c.o -c /home/tej/Smile/glfw/src/input.c",
+  "file": "/home/tej/Smile/glfw/src/input.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tej/Smile/glfw/include -I/home/tej/Smile/glfw/src -I/home/tej/Smile/build/glfw/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/monitor.c.o -c /home/tej/Smile/glfw/src/monitor.c",
+  "file": "/home/tej/Smile/glfw/src/monitor.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tej/Smile/glfw/include -I/home/tej/Smile/glfw/src -I/home/tej/Smile/build/glfw/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/tej/Smile/glfw/src/vulkan.c",
+  "file": "/home/tej/Smile/glfw/src/vulkan.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tej/Smile/glfw/include -I/home/tej/Smile/glfw/src -I/home/tej/Smile/build/glfw/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/window.c.o -c /home/tej/Smile/glfw/src/window.c",
+  "file": "/home/tej/Smile/glfw/src/window.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tej/Smile/glfw/include -I/home/tej/Smile/glfw/src -I/home/tej/Smile/build/glfw/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_init.c.o -c /home/tej/Smile/glfw/src/x11_init.c",
+  "file": "/home/tej/Smile/glfw/src/x11_init.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tej/Smile/glfw/include -I/home/tej/Smile/glfw/src -I/home/tej/Smile/build/glfw/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/tej/Smile/glfw/src/x11_monitor.c",
+  "file": "/home/tej/Smile/glfw/src/x11_monitor.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tej/Smile/glfw/include -I/home/tej/Smile/glfw/src -I/home/tej/Smile/build/glfw/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_window.c.o -c /home/tej/Smile/glfw/src/x11_window.c",
+  "file": "/home/tej/Smile/glfw/src/x11_window.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tej/Smile/glfw/include -I/home/tej/Smile/glfw/src -I/home/tej/Smile/build/glfw/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/tej/Smile/glfw/src/xkb_unicode.c",
+  "file": "/home/tej/Smile/glfw/src/xkb_unicode.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tej/Smile/glfw/include -I/home/tej/Smile/glfw/src -I/home/tej/Smile/build/glfw/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/tej/Smile/glfw/src/posix_time.c",
+  "file": "/home/tej/Smile/glfw/src/posix_time.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tej/Smile/glfw/include -I/home/tej/Smile/glfw/src -I/home/tej/Smile/build/glfw/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/tej/Smile/glfw/src/posix_thread.c",
+  "file": "/home/tej/Smile/glfw/src/posix_thread.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tej/Smile/glfw/include -I/home/tej/Smile/glfw/src -I/home/tej/Smile/build/glfw/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/glx_context.c.o -c /home/tej/Smile/glfw/src/glx_context.c",
+  "file": "/home/tej/Smile/glfw/src/glx_context.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tej/Smile/glfw/include -I/home/tej/Smile/glfw/src -I/home/tej/Smile/build/glfw/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/tej/Smile/glfw/src/egl_context.c",
+  "file": "/home/tej/Smile/glfw/src/egl_context.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tej/Smile/glfw/include -I/home/tej/Smile/glfw/src -I/home/tej/Smile/build/glfw/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/tej/Smile/glfw/src/osmesa_context.c",
+  "file": "/home/tej/Smile/glfw/src/osmesa_context.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tej/Smile/glfw/include -I/home/tej/Smile/glfw/src -I/home/tej/Smile/build/glfw/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/tej/Smile/glfw/src/linux_joystick.c",
+  "file": "/home/tej/Smile/glfw/src/linux_joystick.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/boing.dir/boing.c.o -c /home/tej/Smile/glfw/examples/boing.c",
+  "file": "/home/tej/Smile/glfw/examples/boing.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/boing.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/gears.dir/gears.c.o -c /home/tej/Smile/glfw/examples/gears.c",
+  "file": "/home/tej/Smile/glfw/examples/gears.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/gears.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/heightmap.dir/heightmap.c.o -c /home/tej/Smile/glfw/examples/heightmap.c",
+  "file": "/home/tej/Smile/glfw/examples/heightmap.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/heightmap.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/offscreen.dir/offscreen.c.o -c /home/tej/Smile/glfw/examples/offscreen.c",
+  "file": "/home/tej/Smile/glfw/examples/offscreen.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/offscreen.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/particles.dir/particles.c.o -c /home/tej/Smile/glfw/examples/particles.c",
+  "file": "/home/tej/Smile/glfw/examples/particles.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/particles.dir/__/deps/tinycthread.c.o -c /home/tej/Smile/glfw/deps/tinycthread.c",
+  "file": "/home/tej/Smile/glfw/deps/tinycthread.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/particles.dir/__/deps/getopt.c.o -c /home/tej/Smile/glfw/deps/getopt.c",
+  "file": "/home/tej/Smile/glfw/deps/getopt.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/particles.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/sharing.dir/sharing.c.o -c /home/tej/Smile/glfw/examples/sharing.c",
+  "file": "/home/tej/Smile/glfw/examples/sharing.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/sharing.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/simple.dir/simple.c.o -c /home/tej/Smile/glfw/examples/simple.c",
+  "file": "/home/tej/Smile/glfw/examples/simple.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/simple.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/splitview.dir/splitview.c.o -c /home/tej/Smile/glfw/examples/splitview.c",
+  "file": "/home/tej/Smile/glfw/examples/splitview.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/splitview.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/wave.dir/wave.c.o -c /home/tej/Smile/glfw/examples/wave.c",
+  "file": "/home/tej/Smile/glfw/examples/wave.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/examples",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/wave.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/clipboard.dir/clipboard.c.o -c /home/tej/Smile/glfw/tests/clipboard.c",
+  "file": "/home/tej/Smile/glfw/tests/clipboard.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/clipboard.dir/__/deps/getopt.c.o -c /home/tej/Smile/glfw/deps/getopt.c",
+  "file": "/home/tej/Smile/glfw/deps/getopt.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/clipboard.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/events.dir/events.c.o -c /home/tej/Smile/glfw/tests/events.c",
+  "file": "/home/tej/Smile/glfw/tests/events.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/events.dir/__/deps/getopt.c.o -c /home/tej/Smile/glfw/deps/getopt.c",
+  "file": "/home/tej/Smile/glfw/deps/getopt.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/events.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/msaa.dir/msaa.c.o -c /home/tej/Smile/glfw/tests/msaa.c",
+  "file": "/home/tej/Smile/glfw/tests/msaa.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/msaa.dir/__/deps/getopt.c.o -c /home/tej/Smile/glfw/deps/getopt.c",
+  "file": "/home/tej/Smile/glfw/deps/getopt.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/msaa.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/glfwinfo.dir/glfwinfo.c.o -c /home/tej/Smile/glfw/tests/glfwinfo.c",
+  "file": "/home/tej/Smile/glfw/tests/glfwinfo.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o -c /home/tej/Smile/glfw/deps/getopt.c",
+  "file": "/home/tej/Smile/glfw/deps/getopt.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.o -c /home/tej/Smile/glfw/deps/glad_vulkan.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_vulkan.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/iconify.dir/iconify.c.o -c /home/tej/Smile/glfw/tests/iconify.c",
+  "file": "/home/tej/Smile/glfw/tests/iconify.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/iconify.dir/__/deps/getopt.c.o -c /home/tej/Smile/glfw/deps/getopt.c",
+  "file": "/home/tej/Smile/glfw/deps/getopt.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/iconify.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/monitors.dir/monitors.c.o -c /home/tej/Smile/glfw/tests/monitors.c",
+  "file": "/home/tej/Smile/glfw/tests/monitors.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/monitors.dir/__/deps/getopt.c.o -c /home/tej/Smile/glfw/deps/getopt.c",
+  "file": "/home/tej/Smile/glfw/deps/getopt.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/monitors.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/reopen.dir/reopen.c.o -c /home/tej/Smile/glfw/tests/reopen.c",
+  "file": "/home/tej/Smile/glfw/tests/reopen.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/reopen.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/cursor.dir/cursor.c.o -c /home/tej/Smile/glfw/tests/cursor.c",
+  "file": "/home/tej/Smile/glfw/tests/cursor.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/cursor.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/empty.dir/empty.c.o -c /home/tej/Smile/glfw/tests/empty.c",
+  "file": "/home/tej/Smile/glfw/tests/empty.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/empty.dir/__/deps/tinycthread.c.o -c /home/tej/Smile/glfw/deps/tinycthread.c",
+  "file": "/home/tej/Smile/glfw/deps/tinycthread.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/empty.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/gamma.dir/gamma.c.o -c /home/tej/Smile/glfw/tests/gamma.c",
+  "file": "/home/tej/Smile/glfw/tests/gamma.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/gamma.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/icon.dir/icon.c.o -c /home/tej/Smile/glfw/tests/icon.c",
+  "file": "/home/tej/Smile/glfw/tests/icon.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/icon.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/inputlag.dir/inputlag.c.o -c /home/tej/Smile/glfw/tests/inputlag.c",
+  "file": "/home/tej/Smile/glfw/tests/inputlag.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/inputlag.dir/__/deps/getopt.c.o -c /home/tej/Smile/glfw/deps/getopt.c",
+  "file": "/home/tej/Smile/glfw/deps/getopt.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/inputlag.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/joysticks.dir/joysticks.c.o -c /home/tej/Smile/glfw/tests/joysticks.c",
+  "file": "/home/tej/Smile/glfw/tests/joysticks.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/joysticks.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/opacity.dir/opacity.c.o -c /home/tej/Smile/glfw/tests/opacity.c",
+  "file": "/home/tej/Smile/glfw/tests/opacity.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/opacity.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/tearing.dir/tearing.c.o -c /home/tej/Smile/glfw/tests/tearing.c",
+  "file": "/home/tej/Smile/glfw/tests/tearing.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/tearing.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/threads.dir/threads.c.o -c /home/tej/Smile/glfw/tests/threads.c",
+  "file": "/home/tej/Smile/glfw/tests/threads.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/threads.dir/__/deps/tinycthread.c.o -c /home/tej/Smile/glfw/deps/tinycthread.c",
+  "file": "/home/tej/Smile/glfw/deps/tinycthread.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/threads.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/timeout.dir/timeout.c.o -c /home/tej/Smile/glfw/tests/timeout.c",
+  "file": "/home/tej/Smile/glfw/tests/timeout.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/timeout.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/title.dir/title.c.o -c /home/tej/Smile/glfw/tests/title.c",
+  "file": "/home/tej/Smile/glfw/tests/title.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/title.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o -c /home/tej/Smile/glfw/tests/triangle-vulkan.c",
+  "file": "/home/tej/Smile/glfw/tests/triangle-vulkan.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o -c /home/tej/Smile/glfw/deps/glad_vulkan.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_vulkan.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/windows.dir/windows.c.o -c /home/tej/Smile/glfw/tests/windows.c",
+  "file": "/home/tej/Smile/glfw/tests/windows.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/windows.dir/__/deps/getopt.c.o -c /home/tej/Smile/glfw/deps/getopt.c",
+  "file": "/home/tej/Smile/glfw/deps/getopt.c"
+},
+{
+  "directory": "/home/tej/Smile/build/glfw/tests",
+  "command": "/usr/bin/clang  -I/home/tej/Smile/glfw/deps -I/home/tej/Smile/glfw/include -g -std=gnu99 -o CMakeFiles/windows.dir/__/deps/glad_gl.c.o -c /home/tej/Smile/glfw/deps/glad_gl.c",
+  "file": "/home/tej/Smile/glfw/deps/glad_gl.c"
+}
+]
