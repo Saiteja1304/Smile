@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/clang++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/tej/Smile/include -I/home/tej/Smile/glfw/include
+C_INCLUDES = -I/home/teja/Smile/include -I/home/teja/Smile/build/_deps/glfw-src/include
 
 C_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/tej/Smile/include -I/home/tej/Smile/glfw/include
+CXX_INCLUDES = -I/home/teja/Smile/include -I/home/teja/Smile/build/_deps/glfw-src/include
 
 CXX_FLAGS = -g
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tej/Smile
+CMAKE_SOURCE_DIR = /home/teja/Smile
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tej/Smile/build
+CMAKE_BINARY_DIR = /home/teja/Smile/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles /home/tej/Smile/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teja/Smile/build/CMakeFiles /home/teja/Smile/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tej/Smile/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/teja/Smile/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -184,7 +184,7 @@ uninstall: cmake_check_build_system
 
 # fast build rule for target.
 uninstall/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/CMakeFiles/uninstall.dir/build.make glfw/CMakeFiles/uninstall.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/CMakeFiles/uninstall.dir/build.make _deps/glfw-build/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 #=============================================================================
@@ -197,7 +197,7 @@ update_mappings: cmake_check_build_system
 
 # fast build rule for target.
 update_mappings/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/src/CMakeFiles/update_mappings.dir/build.make glfw/src/CMakeFiles/update_mappings.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/update_mappings.dir/build.make _deps/glfw-build/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
 #=============================================================================
@@ -210,7 +210,7 @@ glfw: cmake_check_build_system
 
 # fast build rule for target.
 glfw/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/src/CMakeFiles/glfw.dir/build.make glfw/src/CMakeFiles/glfw.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/src/CMakeFiles/glfw.dir/build.make _deps/glfw-build/src/CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
 
 #=============================================================================
@@ -223,7 +223,7 @@ boing: cmake_check_build_system
 
 # fast build rule for target.
 boing/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/boing.dir/build.make glfw/examples/CMakeFiles/boing.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/boing.dir/build.make _deps/glfw-build/examples/CMakeFiles/boing.dir/build
 .PHONY : boing/fast
 
 #=============================================================================
@@ -236,7 +236,7 @@ gears: cmake_check_build_system
 
 # fast build rule for target.
 gears/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/gears.dir/build.make glfw/examples/CMakeFiles/gears.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/gears.dir/build.make _deps/glfw-build/examples/CMakeFiles/gears.dir/build
 .PHONY : gears/fast
 
 #=============================================================================
@@ -249,7 +249,7 @@ heightmap: cmake_check_build_system
 
 # fast build rule for target.
 heightmap/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/heightmap.dir/build.make glfw/examples/CMakeFiles/heightmap.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/heightmap.dir/build.make _deps/glfw-build/examples/CMakeFiles/heightmap.dir/build
 .PHONY : heightmap/fast
 
 #=============================================================================
@@ -262,7 +262,7 @@ offscreen: cmake_check_build_system
 
 # fast build rule for target.
 offscreen/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/offscreen.dir/build.make glfw/examples/CMakeFiles/offscreen.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/offscreen.dir/build.make _deps/glfw-build/examples/CMakeFiles/offscreen.dir/build
 .PHONY : offscreen/fast
 
 #=============================================================================
@@ -275,7 +275,7 @@ particles: cmake_check_build_system
 
 # fast build rule for target.
 particles/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/particles.dir/build.make glfw/examples/CMakeFiles/particles.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/particles.dir/build.make _deps/glfw-build/examples/CMakeFiles/particles.dir/build
 .PHONY : particles/fast
 
 #=============================================================================
@@ -288,7 +288,7 @@ sharing: cmake_check_build_system
 
 # fast build rule for target.
 sharing/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/sharing.dir/build.make glfw/examples/CMakeFiles/sharing.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/sharing.dir/build.make _deps/glfw-build/examples/CMakeFiles/sharing.dir/build
 .PHONY : sharing/fast
 
 #=============================================================================
@@ -301,7 +301,7 @@ simple: cmake_check_build_system
 
 # fast build rule for target.
 simple/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/simple.dir/build.make glfw/examples/CMakeFiles/simple.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/simple.dir/build.make _deps/glfw-build/examples/CMakeFiles/simple.dir/build
 .PHONY : simple/fast
 
 #=============================================================================
@@ -314,7 +314,7 @@ splitview: cmake_check_build_system
 
 # fast build rule for target.
 splitview/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/splitview.dir/build.make glfw/examples/CMakeFiles/splitview.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/splitview.dir/build.make _deps/glfw-build/examples/CMakeFiles/splitview.dir/build
 .PHONY : splitview/fast
 
 #=============================================================================
@@ -327,7 +327,7 @@ wave: cmake_check_build_system
 
 # fast build rule for target.
 wave/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/examples/CMakeFiles/wave.dir/build.make glfw/examples/CMakeFiles/wave.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/examples/CMakeFiles/wave.dir/build.make _deps/glfw-build/examples/CMakeFiles/wave.dir/build
 .PHONY : wave/fast
 
 #=============================================================================
@@ -340,7 +340,7 @@ clipboard: cmake_check_build_system
 
 # fast build rule for target.
 clipboard/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/clipboard.dir/build.make glfw/tests/CMakeFiles/clipboard.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/clipboard.dir/build.make _deps/glfw-build/tests/CMakeFiles/clipboard.dir/build
 .PHONY : clipboard/fast
 
 #=============================================================================
@@ -353,7 +353,7 @@ events: cmake_check_build_system
 
 # fast build rule for target.
 events/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/events.dir/build.make glfw/tests/CMakeFiles/events.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/events.dir/build.make _deps/glfw-build/tests/CMakeFiles/events.dir/build
 .PHONY : events/fast
 
 #=============================================================================
@@ -366,7 +366,7 @@ msaa: cmake_check_build_system
 
 # fast build rule for target.
 msaa/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/msaa.dir/build.make glfw/tests/CMakeFiles/msaa.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/msaa.dir/build.make _deps/glfw-build/tests/CMakeFiles/msaa.dir/build
 .PHONY : msaa/fast
 
 #=============================================================================
@@ -379,7 +379,7 @@ glfwinfo: cmake_check_build_system
 
 # fast build rule for target.
 glfwinfo/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/glfwinfo.dir/build.make glfw/tests/CMakeFiles/glfwinfo.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/build.make _deps/glfw-build/tests/CMakeFiles/glfwinfo.dir/build
 .PHONY : glfwinfo/fast
 
 #=============================================================================
@@ -392,7 +392,7 @@ iconify: cmake_check_build_system
 
 # fast build rule for target.
 iconify/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/iconify.dir/build.make glfw/tests/CMakeFiles/iconify.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/iconify.dir/build.make _deps/glfw-build/tests/CMakeFiles/iconify.dir/build
 .PHONY : iconify/fast
 
 #=============================================================================
@@ -405,7 +405,7 @@ monitors: cmake_check_build_system
 
 # fast build rule for target.
 monitors/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/monitors.dir/build.make glfw/tests/CMakeFiles/monitors.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/monitors.dir/build.make _deps/glfw-build/tests/CMakeFiles/monitors.dir/build
 .PHONY : monitors/fast
 
 #=============================================================================
@@ -418,7 +418,7 @@ reopen: cmake_check_build_system
 
 # fast build rule for target.
 reopen/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/reopen.dir/build.make glfw/tests/CMakeFiles/reopen.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/reopen.dir/build.make _deps/glfw-build/tests/CMakeFiles/reopen.dir/build
 .PHONY : reopen/fast
 
 #=============================================================================
@@ -431,7 +431,7 @@ cursor: cmake_check_build_system
 
 # fast build rule for target.
 cursor/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/cursor.dir/build.make glfw/tests/CMakeFiles/cursor.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/cursor.dir/build.make _deps/glfw-build/tests/CMakeFiles/cursor.dir/build
 .PHONY : cursor/fast
 
 #=============================================================================
@@ -444,7 +444,7 @@ empty: cmake_check_build_system
 
 # fast build rule for target.
 empty/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/empty.dir/build.make glfw/tests/CMakeFiles/empty.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/empty.dir/build.make _deps/glfw-build/tests/CMakeFiles/empty.dir/build
 .PHONY : empty/fast
 
 #=============================================================================
@@ -457,7 +457,7 @@ gamma: cmake_check_build_system
 
 # fast build rule for target.
 gamma/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/gamma.dir/build.make glfw/tests/CMakeFiles/gamma.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/gamma.dir/build.make _deps/glfw-build/tests/CMakeFiles/gamma.dir/build
 .PHONY : gamma/fast
 
 #=============================================================================
@@ -470,7 +470,7 @@ icon: cmake_check_build_system
 
 # fast build rule for target.
 icon/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/icon.dir/build.make glfw/tests/CMakeFiles/icon.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/icon.dir/build.make _deps/glfw-build/tests/CMakeFiles/icon.dir/build
 .PHONY : icon/fast
 
 #=============================================================================
@@ -483,7 +483,7 @@ inputlag: cmake_check_build_system
 
 # fast build rule for target.
 inputlag/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/inputlag.dir/build.make glfw/tests/CMakeFiles/inputlag.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/inputlag.dir/build.make _deps/glfw-build/tests/CMakeFiles/inputlag.dir/build
 .PHONY : inputlag/fast
 
 #=============================================================================
@@ -496,7 +496,7 @@ joysticks: cmake_check_build_system
 
 # fast build rule for target.
 joysticks/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/joysticks.dir/build.make glfw/tests/CMakeFiles/joysticks.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/joysticks.dir/build.make _deps/glfw-build/tests/CMakeFiles/joysticks.dir/build
 .PHONY : joysticks/fast
 
 #=============================================================================
@@ -509,7 +509,7 @@ opacity: cmake_check_build_system
 
 # fast build rule for target.
 opacity/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/opacity.dir/build.make glfw/tests/CMakeFiles/opacity.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/opacity.dir/build.make _deps/glfw-build/tests/CMakeFiles/opacity.dir/build
 .PHONY : opacity/fast
 
 #=============================================================================
@@ -522,7 +522,7 @@ tearing: cmake_check_build_system
 
 # fast build rule for target.
 tearing/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/tearing.dir/build.make glfw/tests/CMakeFiles/tearing.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/tearing.dir/build.make _deps/glfw-build/tests/CMakeFiles/tearing.dir/build
 .PHONY : tearing/fast
 
 #=============================================================================
@@ -535,7 +535,7 @@ threads: cmake_check_build_system
 
 # fast build rule for target.
 threads/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/threads.dir/build.make glfw/tests/CMakeFiles/threads.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/threads.dir/build.make _deps/glfw-build/tests/CMakeFiles/threads.dir/build
 .PHONY : threads/fast
 
 #=============================================================================
@@ -548,7 +548,7 @@ timeout: cmake_check_build_system
 
 # fast build rule for target.
 timeout/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/timeout.dir/build.make glfw/tests/CMakeFiles/timeout.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/timeout.dir/build.make _deps/glfw-build/tests/CMakeFiles/timeout.dir/build
 .PHONY : timeout/fast
 
 #=============================================================================
@@ -561,7 +561,7 @@ title: cmake_check_build_system
 
 # fast build rule for target.
 title/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/title.dir/build.make glfw/tests/CMakeFiles/title.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/title.dir/build.make _deps/glfw-build/tests/CMakeFiles/title.dir/build
 .PHONY : title/fast
 
 #=============================================================================
@@ -574,7 +574,7 @@ triangle-vulkan: cmake_check_build_system
 
 # fast build rule for target.
 triangle-vulkan/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/triangle-vulkan.dir/build.make glfw/tests/CMakeFiles/triangle-vulkan.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/build.make _deps/glfw-build/tests/CMakeFiles/triangle-vulkan.dir/build
 .PHONY : triangle-vulkan/fast
 
 #=============================================================================
@@ -587,7 +587,7 @@ windows: cmake_check_build_system
 
 # fast build rule for target.
 windows/fast:
-	$(MAKE) $(MAKESILENT) -f glfw/tests/CMakeFiles/windows.dir/build.make glfw/tests/CMakeFiles/windows.dir/build
+	$(MAKE) $(MAKESILENT) -f _deps/glfw-build/tests/CMakeFiles/windows.dir/build.make _deps/glfw-build/tests/CMakeFiles/windows.dir/build
 .PHONY : windows/fast
 
 Smile.o: Smile.cpp.o

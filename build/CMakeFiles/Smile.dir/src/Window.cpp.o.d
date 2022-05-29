@@ -1,5 +1,5 @@
-CMakeFiles/Smile.dir/src/Window.cpp.o: /home/tej/Smile/src/Window.cpp \
-  /home/tej/Smile/glfw/include/GLFW/glfw3.h \
+CMakeFiles/Smile.dir/src/Window.cpp.o: /home/teja/Smile/src/Window.cpp \
+  /home/teja/Smile/build/_deps/glfw-src/include/GLFW/glfw3.h \
   /usr/lib/clang/13.0.1/include/stddef.h \
   /usr/lib/clang/13.0.1/include/__stddef_max_align_t.h \
   /usr/lib/clang/13.0.1/include/stdint.h /usr/include/stdint.h \
@@ -13,8 +13,8 @@ CMakeFiles/Smile.dir/src/Window.cpp.o: /home/tej/Smile/src/Window.cpp \
   /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
   /usr/include/GL/gl.h /usr/include/GL/glext.h \
   /usr/include/KHR/khrplatform.h \
-  /home/tej/Smile/include/Window/Window.hpp \
-  /home/tej/Smile/include/Debug/Debug.hpp \
+  /home/teja/Smile/include/Window/Window.hpp \
+  /home/teja/Smile/include/Debug/Debug.hpp \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/iostream \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/x86_64-pc-linux-gnu/bits/os_defines.h \

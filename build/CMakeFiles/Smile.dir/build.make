@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tej/Smile
+CMAKE_SOURCE_DIR = /home/teja/Smile
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tej/Smile/build
+CMAKE_BINARY_DIR = /home/teja/Smile/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Smile.dir/depend.make
@@ -72,58 +72,58 @@ include CMakeFiles/Smile.dir/flags.make
 CMakeFiles/Smile.dir/Smile.cpp.o: CMakeFiles/Smile.dir/flags.make
 CMakeFiles/Smile.dir/Smile.cpp.o: ../Smile.cpp
 CMakeFiles/Smile.dir/Smile.cpp.o: CMakeFiles/Smile.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Smile.dir/Smile.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Smile.dir/Smile.cpp.o -MF CMakeFiles/Smile.dir/Smile.cpp.o.d -o CMakeFiles/Smile.dir/Smile.cpp.o -c /home/tej/Smile/Smile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teja/Smile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Smile.dir/Smile.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Smile.dir/Smile.cpp.o -MF CMakeFiles/Smile.dir/Smile.cpp.o.d -o CMakeFiles/Smile.dir/Smile.cpp.o -c /home/teja/Smile/Smile.cpp
 
 CMakeFiles/Smile.dir/Smile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Smile.dir/Smile.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tej/Smile/Smile.cpp > CMakeFiles/Smile.dir/Smile.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teja/Smile/Smile.cpp > CMakeFiles/Smile.dir/Smile.cpp.i
 
 CMakeFiles/Smile.dir/Smile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Smile.dir/Smile.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tej/Smile/Smile.cpp -o CMakeFiles/Smile.dir/Smile.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teja/Smile/Smile.cpp -o CMakeFiles/Smile.dir/Smile.cpp.s
 
 CMakeFiles/Smile.dir/src/Graphics.cpp.o: CMakeFiles/Smile.dir/flags.make
 CMakeFiles/Smile.dir/src/Graphics.cpp.o: ../src/Graphics.cpp
 CMakeFiles/Smile.dir/src/Graphics.cpp.o: CMakeFiles/Smile.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Smile.dir/src/Graphics.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Smile.dir/src/Graphics.cpp.o -MF CMakeFiles/Smile.dir/src/Graphics.cpp.o.d -o CMakeFiles/Smile.dir/src/Graphics.cpp.o -c /home/tej/Smile/src/Graphics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teja/Smile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Smile.dir/src/Graphics.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Smile.dir/src/Graphics.cpp.o -MF CMakeFiles/Smile.dir/src/Graphics.cpp.o.d -o CMakeFiles/Smile.dir/src/Graphics.cpp.o -c /home/teja/Smile/src/Graphics.cpp
 
 CMakeFiles/Smile.dir/src/Graphics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Smile.dir/src/Graphics.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tej/Smile/src/Graphics.cpp > CMakeFiles/Smile.dir/src/Graphics.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teja/Smile/src/Graphics.cpp > CMakeFiles/Smile.dir/src/Graphics.cpp.i
 
 CMakeFiles/Smile.dir/src/Graphics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Smile.dir/src/Graphics.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tej/Smile/src/Graphics.cpp -o CMakeFiles/Smile.dir/src/Graphics.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teja/Smile/src/Graphics.cpp -o CMakeFiles/Smile.dir/src/Graphics.cpp.s
 
 CMakeFiles/Smile.dir/src/Window.cpp.o: CMakeFiles/Smile.dir/flags.make
 CMakeFiles/Smile.dir/src/Window.cpp.o: ../src/Window.cpp
 CMakeFiles/Smile.dir/src/Window.cpp.o: CMakeFiles/Smile.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Smile.dir/src/Window.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Smile.dir/src/Window.cpp.o -MF CMakeFiles/Smile.dir/src/Window.cpp.o.d -o CMakeFiles/Smile.dir/src/Window.cpp.o -c /home/tej/Smile/src/Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teja/Smile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Smile.dir/src/Window.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Smile.dir/src/Window.cpp.o -MF CMakeFiles/Smile.dir/src/Window.cpp.o.d -o CMakeFiles/Smile.dir/src/Window.cpp.o -c /home/teja/Smile/src/Window.cpp
 
 CMakeFiles/Smile.dir/src/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Smile.dir/src/Window.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tej/Smile/src/Window.cpp > CMakeFiles/Smile.dir/src/Window.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teja/Smile/src/Window.cpp > CMakeFiles/Smile.dir/src/Window.cpp.i
 
 CMakeFiles/Smile.dir/src/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Smile.dir/src/Window.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tej/Smile/src/Window.cpp -o CMakeFiles/Smile.dir/src/Window.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teja/Smile/src/Window.cpp -o CMakeFiles/Smile.dir/src/Window.cpp.s
 
 CMakeFiles/Smile.dir/src/glad.c.o: CMakeFiles/Smile.dir/flags.make
 CMakeFiles/Smile.dir/src/glad.c.o: ../src/glad.c
 CMakeFiles/Smile.dir/src/glad.c.o: CMakeFiles/Smile.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Smile.dir/src/glad.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Smile.dir/src/glad.c.o -MF CMakeFiles/Smile.dir/src/glad.c.o.d -o CMakeFiles/Smile.dir/src/glad.c.o -c /home/tej/Smile/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teja/Smile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Smile.dir/src/glad.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Smile.dir/src/glad.c.o -MF CMakeFiles/Smile.dir/src/glad.c.o.d -o CMakeFiles/Smile.dir/src/glad.c.o -c /home/teja/Smile/src/glad.c
 
 CMakeFiles/Smile.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Smile.dir/src/glad.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tej/Smile/src/glad.c > CMakeFiles/Smile.dir/src/glad.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/teja/Smile/src/glad.c > CMakeFiles/Smile.dir/src/glad.c.i
 
 CMakeFiles/Smile.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Smile.dir/src/glad.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tej/Smile/src/glad.c -o CMakeFiles/Smile.dir/src/glad.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/teja/Smile/src/glad.c -o CMakeFiles/Smile.dir/src/glad.c.s
 
 # Object files for target Smile
 Smile_OBJECTS = \
@@ -141,7 +141,7 @@ libSmile.a: CMakeFiles/Smile.dir/src/Window.cpp.o
 libSmile.a: CMakeFiles/Smile.dir/src/glad.c.o
 libSmile.a: CMakeFiles/Smile.dir/build.make
 libSmile.a: CMakeFiles/Smile.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tej/Smile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libSmile.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/teja/Smile/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libSmile.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Smile.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Smile.dir/link.txt --verbose=$(VERBOSE)
 
@@ -154,6 +154,6 @@ CMakeFiles/Smile.dir/clean:
 .PHONY : CMakeFiles/Smile.dir/clean
 
 CMakeFiles/Smile.dir/depend:
-	cd /home/tej/Smile/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tej/Smile /home/tej/Smile /home/tej/Smile/build /home/tej/Smile/build /home/tej/Smile/build/CMakeFiles/Smile.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/teja/Smile/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/teja/Smile /home/teja/Smile /home/teja/Smile/build /home/teja/Smile/build /home/teja/Smile/build/CMakeFiles/Smile.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Smile.dir/depend
 
