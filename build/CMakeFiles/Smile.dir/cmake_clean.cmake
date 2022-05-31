@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Smile.dir/src/Window.cpp.o.d"
   "CMakeFiles/Smile.dir/src/glad.c.o"
   "CMakeFiles/Smile.dir/src/glad.c.o.d"
-  "libSmile.a"
   "libSmile.pdb"
+  "libSmile.so"
 )
 
 # Per-language clean rules from dependency scanning.

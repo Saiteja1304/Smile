@@ -3,15 +3,15 @@
 
 # compile C with /usr/bin/clang
 # compile CXX with /usr/bin/clang++
-C_DEFINES = 
+C_DEFINES = -DSmile_EXPORTS
 
 C_INCLUDES = -I/home/teja/Smile/include -I/home/teja/Smile/build/_deps/glfw-src/include
 
-C_FLAGS = -g
+C_FLAGS = -g -fPIC
 
-CXX_DEFINES = 
+CXX_DEFINES = -DSmile_EXPORTS
 
 CXX_INCLUDES = -I/home/teja/Smile/include -I/home/teja/Smile/build/_deps/glfw-src/include
 
-CXX_FLAGS = -g
+CXX_FLAGS = -g -fPIC
 

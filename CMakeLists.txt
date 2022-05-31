@@ -12,7 +12,7 @@ FetchContent_MakeAvailable(glfw)
 file(GLOB SRC src/*.cpp src/*.c)
 file(GLOB INCLUDE src/*.hpp)
 
-add_library(${PROJECT_NAME} Smile.cpp
+add_library(${PROJECT_NAME} SHARED Smile.cpp
 ${SRC} ${INCLUDE}
 )
 

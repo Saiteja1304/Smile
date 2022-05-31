@@ -1,22 +1,22 @@
 [
 {
   "directory": "/home/teja/Smile/build",
-  "command": "/usr/bin/clang++  -I/home/teja/Smile/include -I/home/teja/Smile/build/_deps/glfw-src/include -g -o CMakeFiles/Smile.dir/Smile.cpp.o -c /home/teja/Smile/Smile.cpp",
+  "command": "/usr/bin/clang++ -DSmile_EXPORTS -I/home/teja/Smile/include -I/home/teja/Smile/build/_deps/glfw-src/include -g -fPIC -o CMakeFiles/Smile.dir/Smile.cpp.o -c /home/teja/Smile/Smile.cpp",
   "file": "/home/teja/Smile/Smile.cpp"
 },
 {
   "directory": "/home/teja/Smile/build",
-  "command": "/usr/bin/clang++  -I/home/teja/Smile/include -I/home/teja/Smile/build/_deps/glfw-src/include -g -o CMakeFiles/Smile.dir/src/Graphics.cpp.o -c /home/teja/Smile/src/Graphics.cpp",
+  "command": "/usr/bin/clang++ -DSmile_EXPORTS -I/home/teja/Smile/include -I/home/teja/Smile/build/_deps/glfw-src/include -g -fPIC -o CMakeFiles/Smile.dir/src/Graphics.cpp.o -c /home/teja/Smile/src/Graphics.cpp",
   "file": "/home/teja/Smile/src/Graphics.cpp"
 },
 {
   "directory": "/home/teja/Smile/build",
-  "command": "/usr/bin/clang++  -I/home/teja/Smile/include -I/home/teja/Smile/build/_deps/glfw-src/include -g -o CMakeFiles/Smile.dir/src/Window.cpp.o -c /home/teja/Smile/src/Window.cpp",
+  "command": "/usr/bin/clang++ -DSmile_EXPORTS -I/home/teja/Smile/include -I/home/teja/Smile/build/_deps/glfw-src/include -g -fPIC -o CMakeFiles/Smile.dir/src/Window.cpp.o -c /home/teja/Smile/src/Window.cpp",
   "file": "/home/teja/Smile/src/Window.cpp"
 },
 {
   "directory": "/home/teja/Smile/build",
-  "command": "/usr/bin/clang  -I/home/teja/Smile/include -I/home/teja/Smile/build/_deps/glfw-src/include -g -o CMakeFiles/Smile.dir/src/glad.c.o -c /home/teja/Smile/src/glad.c",
+  "command": "/usr/bin/clang -DSmile_EXPORTS -I/home/teja/Smile/include -I/home/teja/Smile/build/_deps/glfw-src/include -g -fPIC -o CMakeFiles/Smile.dir/src/glad.c.o -c /home/teja/Smile/src/glad.c",
   "file": "/home/teja/Smile/src/glad.c"
 },
 {
