@@ -3,10 +3,10 @@
 extern "C" {
 class CSScript {
 public:
-  void init();
-  void start();
-  void update();
-  void exit();
+  virtual void init(){};
+  virtual void start(){};
+  virtual void update(){};
+  virtual void exit(){};
 };
 }
 class Systems {};
