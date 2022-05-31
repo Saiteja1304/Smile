@@ -36,14 +36,8 @@ void Window::WSetWindowSize(int &width, int &height) {
   glfwSetWindowSize(WHandle, width, height);
 }
 void Window::WSetContext() { glfwMakeContextCurrent(WHandle); }
-void Window::WUpdate(){
-    WIsRunning = !glfwWindowShouldClose(WHandle);
-    glfwPollEvents();
-    glfwSwapBuffers(WHandle);
-}
-void Window::WDestroyWindow(){
-    glfwDestroyWindow(WHandle);
-}
-void Window::WExitGLFW(){
-    glfwTerminate();
-}
+void Window::WUpdate() { WIsRunning = !glfwWindowShouldClose(WHandle); }
+void Window::WSwapBuffers() { glfwSwapBuffers(WHandle); }
+void Window::WPollEvents() { glfwPollEvents(); }
+void Window::WDestroyWindow() { glfwDestroyWindow(WHandle); }
+void Window::WExitGLFW() { glfwTerminate(); }

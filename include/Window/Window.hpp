@@ -20,6 +20,8 @@ public:
   void WSetContext();
   void WGetWindowSize(int &width, int &height);
   void WSetWindowSize(int &width, int &height);
+  void WPollEvents();
+  void WSwapBuffers();
   void WUpdate();
   void WDestroyWindow();
   void WExitGLFW();
