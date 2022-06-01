@@ -23,6 +23,7 @@ public:
   void WPollEvents();
   void WSwapBuffers();
   void WUpdate();
+  void WExitWindow();
   void WDestroyWindow();
   void WExitGLFW();
 
