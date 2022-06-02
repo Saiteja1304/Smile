@@ -7,6 +7,10 @@
 // std
 #include <iostream>
 
+void Window::WSetCallback(GLFWkeyfun callback) {
+  glfwSetKeyCallback(WHandle, callback);
+}
+
 int Window::WInitGLFW() {
   int GLFWResult = glfwInit();
 
@@ -35,7 +39,7 @@ void Window::WGetWindowSize(int &width, int &height) {
 void Window::WSetWindowSize(int &width, int &height) {
   glfwSetWindowSize(WHandle, width, height);
 }
-void Window::WExitWindow(){glfwSetWindowShouldClose(WHandle, true);}
+void Window::WExitWindow() { glfwSetWindowShouldClose(WHandle, true); }
 void Window::WSetContext() { glfwMakeContextCurrent(WHandle); }
 void Window::WUpdate() { WIsRunning = !glfwWindowShouldClose(WHandle); }
 void Window::WSwapBuffers() { glfwSwapBuffers(WHandle); }

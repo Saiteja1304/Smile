@@ -16,7 +16,7 @@ public:
       WInstance = new Window;
     return WInstance;
   }
-  virtual void KeyCallBack(GLFWwindow* window, int key, int scancode, int action, int mods);
+  void WSetCallback(GLFWkeyfun callback);
   int WInitGLFW();
   bool WCreateWindow();
   void WSetContext();
