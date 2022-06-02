@@ -1,8 +1,8 @@
 #ifndef CSCRIPT_HPP
 #define CSCRIPT_HPP
 
-class CScript {
-  public:
+extern "C" class CScript {
+public:
   virtual void Init();
   virtual void Start();
   virtual void Update();
