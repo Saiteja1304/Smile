@@ -2,10 +2,18 @@
 #define VECTOR4_HPP
 
 struct vector4 {
-  enum { float r, x; };
-  enum { float g, y; };
-  enum { float b, z; };
-  enum { float a, w; };
+  union {
+    float r, x;
+  };
+  union {
+    float g, y;
+  };
+  union {
+    float b, z;
+  };
+  union {
+    float a, w;
+  };
 };
 
 #endif
