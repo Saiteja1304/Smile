@@ -10,7 +10,7 @@ public:
   virtual void Exit();
 
   CScript() {}
-  ~CScript() {}
+  virtual ~CScript() {}
 
 private:
 };
