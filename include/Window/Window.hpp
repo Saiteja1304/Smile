@@ -10,11 +10,13 @@ public:
   GLFWwindow *WHandle;
   static Window *WInstance;
   bool WIsRunning = true;
+  bool WEnableKeyCallBack = false;
   static Window *WGetInstance() {
     if (!WInstance)
       WInstance = new Window;
     return WInstance;
   }
+  virtual void KeyCallBack(GLFWwindow* window, int key, int scancode, int action, int mods);
   int WInitGLFW();
   bool WCreateWindow();
   void WSetContext();
