@@ -3,10 +3,11 @@
 
 class Graphics {
 public:
-  static Graphics *GInstance;
-  static Graphics *GGetInstance() {
-    if (!GInstance)
-      GInstance = new Graphics;
+  // static Graphics *GInstance;
+  static Graphics &GGetInstance() {
+    // if (!GInstance)
+    //   GInstance = new Graphics;
+    static Graphics GInstance;
     return GInstance;
   }
   int GInit();
@@ -15,6 +16,11 @@ public:
 
 private:
   Graphics() {}
-  ~Graphics() {}
+  Graphics(Graphics const &);
+  void operator=(Graphics const &);
+
+public:
+  // Graphics(Graphics const &) = delete;
+  // void operator=(Graphics const &) = delete;
 };
 #endif
