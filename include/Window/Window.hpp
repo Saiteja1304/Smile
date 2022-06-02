@@ -8,12 +8,10 @@
 class Window {
 public:
   GLFWwindow *WHandle;
-  static Window *WInstance;
   bool WIsRunning = true;
   bool WEnableKeyCallBack = false;
-  static Window *WGetInstance() {
-    if (!WInstance)
-      WInstance = new Window;
+  static Window &WGetInstance() {
+    static Window WInstance;
     return WInstance;
   }
   void WSetCallback(GLFWkeyfun callback);
@@ -30,8 +28,9 @@ public:
   void WExitGLFW();
 
 private:
-  Window(){}
-  ~Window(){}
+  Window() {}
+  Window(Window const &);
+  void operator=(Window const &);
 };
 
 #endif

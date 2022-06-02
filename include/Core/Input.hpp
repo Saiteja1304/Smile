@@ -139,10 +139,8 @@
 
 class Input {
 public:
-  static Input *IInstance;
-  static Input *IGetInstance() {
-    if (!IInstance)
-      IInstance = new Input;
+  static Input &IGetInstance() {
+    static Input IInstance;
     return IInstance;
   }
   bool IGetKeyDown(int key) {
@@ -162,7 +160,8 @@ public:
 private:
   Window *window;
   Input() {}
-  ~Input() {}
+  Input(Input const &);
+  void operator=(Input const &);
 };
 
 #endif
