@@ -3,6 +3,7 @@
 
 extern "C" class CScript {
 public:
+  void nonvirtual();
   virtual void Init();
   virtual void Start();
   virtual void Update();
