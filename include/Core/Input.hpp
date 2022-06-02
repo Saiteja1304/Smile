@@ -144,21 +144,21 @@ public:
     return IInstance;
   }
   bool IGetKeyDown(int key) {
-    if (glfwGetKey(window->WHandle, key) == INPUT_PRESS)
+    if (glfwGetKey(window.WHandle, key) == INPUT_PRESS)
       return true;
     else
       return false;
   }
   bool IGetKeyUp(int key) {
-    if (glfwGetKey(window->WHandle, key) == INPUT_RELEASE)
+    if (glfwGetKey(window.WHandle, key) == INPUT_RELEASE)
       return true;
     else
       return false;
   }
-  void IInit() { window = window->WGetInstance(); }
+  void IInit() {}
 
 private:
-  Window *window;
+  Window &window = window.WGetInstance();
   Input() {}
   Input(Input const &);
   void operator=(Input const &);

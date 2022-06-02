@@ -3,10 +3,7 @@
 
 class Graphics {
 public:
-  // static Graphics *GInstance;
   static Graphics &GGetInstance() {
-    // if (!GInstance)
-    //   GInstance = new Graphics;
     static Graphics GInstance;
     return GInstance;
   }

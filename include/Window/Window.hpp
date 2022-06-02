@@ -29,8 +29,8 @@ public:
 
 private:
   Window() {}
-  Window(Window const &);
-  void operator=(Window const &);
+  Window(Window const & copy);
+  void operator=(Window const & copy);
 };
 
 #endif
