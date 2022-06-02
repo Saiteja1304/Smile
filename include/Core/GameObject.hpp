@@ -1,9 +1,9 @@
 #ifndef GAMEOBJECT_HPP
 #define GAMEOBJECT_HPP
 
-#include "Component.hpp"
-#include "MeshRenderer.hpp"
-#include "Shader.hpp"
+#include "Components/Component.hpp"
+#include "Components/MeshRenderer.hpp"
+#include "Components/Shader.hpp"
 struct GameObject {
   MeshRenderer meshrenderer;
   Shader shader;
