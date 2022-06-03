@@ -6,8 +6,14 @@ struct vector2 {
     float x, r;
   };
   union {
-    float y, g;;
+    float y, g;
   };
+  vector2() {}
+  vector2(float val) { x = y = val; }
+  vector2(float _val_1, float _val_2) {
+    x = _val_1;
+    y = _val_2;
+  }
 };
 struct ivector2 {
   union {
@@ -16,6 +22,12 @@ struct ivector2 {
   union {
     int y, g;
   };
+  ivector2() {}
+  ivector2(int val) { x = y = val; }
+  ivector2(int _val_1, int _val_2) {
+    x = _val_1;
+    y = _val_2;
+  }
 };
 
 #endif

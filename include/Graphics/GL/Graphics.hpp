@@ -5,7 +5,7 @@
 #include "Core/Math/vector4.hpp"
 class Graphics {
 public:
-  vector4 G_BGColor;
+  vector4 G_BGColor = vector4(1.0);
   static Graphics &GGetInstance() {
     static Graphics GInstance;
     return GInstance;

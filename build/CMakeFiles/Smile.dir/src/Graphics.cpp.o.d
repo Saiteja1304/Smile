@@ -10,4 +10,6 @@ CMakeFiles/Smile.dir/src/Graphics.cpp.o: \
   /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
   /usr/include/bits/wchar.h /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-uintn.h \
-  /home/teja/Smile/include/Graphics/GL/Graphics.hpp
+  /home/teja/Smile/include/Graphics/GL/Graphics.hpp \
+  /home/teja/Smile/include/Core/Math/vector2.hpp \
+  /home/teja/Smile/include/Core/Math/vector4.hpp
