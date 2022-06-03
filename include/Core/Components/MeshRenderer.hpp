@@ -2,9 +2,9 @@
 #define MESHRENDERER_HPP
 
 #include "Component.hpp"
-template <unsigned short int vertexSize, unsigned short int faceSize>
 struct Mesh : Component {
   bool is_vt, is_vn;
+  unsigned short int vertexDataSize, faceDataSize;
   float *vertexData;
   int *faceData;
 };

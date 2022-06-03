@@ -11,6 +11,16 @@
 },
 {
   "directory": "/home/teja/Smile/build",
+  "command": "/usr/bin/clang++ -DSmile_EXPORTS -I/home/teja/Smile/include -I/home/teja/Smile/build/_deps/glfw-src/include -g -fPIC -o CMakeFiles/Smile.dir/src/Group.cpp.o -c /home/teja/Smile/src/Group.cpp",
+  "file": "/home/teja/Smile/src/Group.cpp"
+},
+{
+  "directory": "/home/teja/Smile/build",
+  "command": "/usr/bin/clang++ -DSmile_EXPORTS -I/home/teja/Smile/include -I/home/teja/Smile/build/_deps/glfw-src/include -g -fPIC -o CMakeFiles/Smile.dir/src/Renderer.cpp.o -c /home/teja/Smile/src/Renderer.cpp",
+  "file": "/home/teja/Smile/src/Renderer.cpp"
+},
+{
+  "directory": "/home/teja/Smile/build",
   "command": "/usr/bin/clang++ -DSmile_EXPORTS -I/home/teja/Smile/include -I/home/teja/Smile/build/_deps/glfw-src/include -g -fPIC -o CMakeFiles/Smile.dir/src/Window.cpp.o -c /home/teja/Smile/src/Window.cpp",
   "file": "/home/teja/Smile/src/Window.cpp"
 },

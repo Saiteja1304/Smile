@@ -638,6 +638,54 @@ src/Graphics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Smile.dir/build.make CMakeFiles/Smile.dir/src/Graphics.cpp.s
 .PHONY : src/Graphics.cpp.s
 
+src/Group.o: src/Group.cpp.o
+.PHONY : src/Group.o
+
+# target to build an object file
+src/Group.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Smile.dir/build.make CMakeFiles/Smile.dir/src/Group.cpp.o
+.PHONY : src/Group.cpp.o
+
+src/Group.i: src/Group.cpp.i
+.PHONY : src/Group.i
+
+# target to preprocess a source file
+src/Group.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Smile.dir/build.make CMakeFiles/Smile.dir/src/Group.cpp.i
+.PHONY : src/Group.cpp.i
+
+src/Group.s: src/Group.cpp.s
+.PHONY : src/Group.s
+
+# target to generate assembly for a file
+src/Group.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Smile.dir/build.make CMakeFiles/Smile.dir/src/Group.cpp.s
+.PHONY : src/Group.cpp.s
+
+src/Renderer.o: src/Renderer.cpp.o
+.PHONY : src/Renderer.o
+
+# target to build an object file
+src/Renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Smile.dir/build.make CMakeFiles/Smile.dir/src/Renderer.cpp.o
+.PHONY : src/Renderer.cpp.o
+
+src/Renderer.i: src/Renderer.cpp.i
+.PHONY : src/Renderer.i
+
+# target to preprocess a source file
+src/Renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Smile.dir/build.make CMakeFiles/Smile.dir/src/Renderer.cpp.i
+.PHONY : src/Renderer.cpp.i
+
+src/Renderer.s: src/Renderer.cpp.s
+.PHONY : src/Renderer.s
+
+# target to generate assembly for a file
+src/Renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Smile.dir/build.make CMakeFiles/Smile.dir/src/Renderer.cpp.s
+.PHONY : src/Renderer.cpp.s
+
 src/Window.o: src/Window.cpp.o
 .PHONY : src/Window.o
 
@@ -737,6 +785,12 @@ help:
 	@echo "... src/Graphics.o"
 	@echo "... src/Graphics.i"
 	@echo "... src/Graphics.s"
+	@echo "... src/Group.o"
+	@echo "... src/Group.i"
+	@echo "... src/Group.s"
+	@echo "... src/Renderer.o"
+	@echo "... src/Renderer.i"
+	@echo "... src/Renderer.s"
 	@echo "... src/Window.o"
 	@echo "... src/Window.i"
 	@echo "... src/Window.s"

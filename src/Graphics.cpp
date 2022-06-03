@@ -3,10 +3,10 @@
 int Graphics::GInit(){
     return gladLoadGL();
 }
-void Graphics::GSetViewPort(int xPos, int yPos, int width, int height){
-    glViewport(xPos, yPos, width, height);
+void Graphics::GSetViewPort(ivector2 startPos, ivector2 size){
+    glViewport(startPos.x, startPos.y, size.x, size.y);
 }
-void Graphics::GBackGroundColor(float red, float green, float blue, float alpha){
-    glClearColor(red, green, blue, alpha);
+void Graphics::GBackGroundColor(vector4 _backgroundcolor){
+    glClearColor(_backgroundcolor.x, _backgroundcolor.y, _backgroundcolor.z, _backgroundcolor.w);
     glClear(GL_COLOR_BUFFER_BIT);
 }
